@@ -1,0 +1,858 @@
+/* Start Global */
+
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    cursor: default;
+}
+
+::-webkit-scrollbar{
+    background-color: white;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(19, 6, 199);
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p {
+    color: rgb(0, 0, 0, .7);
+}
+
+.hidden {
+    display: none;
+}
+
+/* End Global */
+
+/* =========================================================================================================================== */
+
+/* Start Upper Bar */
+
+.upper-bar {
+    background-color: #08526d;
+    color: white;
+    padding: 7px;
+}
+
+/* End Upper Bar */
+
+/* =========================================================================================================================== */
+
+/* Start Navbar */
+
+.navbar-brand span {
+    font-size: 40px;
+}
+
+.navbar-brand span:first-child {
+    color: #08526d;
+    font-weight: 500;
+}
+
+.navbar-brand span:last-child {
+    color: #ec1c23;
+    font-weight: 300;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    margin-left: 15px;
+    color: #08526d !important;
+    font-weight: 500;
+    padding-right: 0 !important;
+} 
+
+.navbar-nav .active .nav-link,
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ec1c23 !important;
+}
+
+/* End Navbar */
+
+/* =========================================================================================================================== */
+
+/* Start Carousel */
+
+.header .carousel-inner .row {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    z-index: 3;
+    color: white;
+    z-index: 3;
+}
+
+/* ======================================= */
+
+.header .carousel-inner .row h1 {
+    font-size: 65px;
+    line-height: 1.4;
+}
+
+@media (max-width: 992px){
+    .header .carousel-inner .row h1 {
+        font-size: 45px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .header .carousel-inner .row h1 {
+        font-size: 32px;
+    }
+}
+
+/* ======================================== */
+
+
+.header .carousel-inner span {
+    background-color: #ec1c23;
+    padding: 0px 4px 10px 4px;
+}
+
+.header .carousel-inner .over-lay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, .85);
+    z-index: 2;
+}
+
+.header ol li {
+    width: 22px;
+    height: 22px;
+}
+
+.header ol li:hover {
+    background-color: #ec1c23;
+}
+
+.header ol .active {
+    background-color: #ec1c23;
+}
+
+/* End Carousel */
+
+/* =========================================================================================================================== */
+
+/* Start Features */
+
+.features {
+    margin: 60px 0;
+}
+
+.features .row div {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.features .row div:hover {
+    box-shadow: 0 0 8px 1px rgb(0, 0, 0, .6);
+    border-radius: 5px;
+}
+
+.features .row div i {
+    color: white;
+    background-color: #ec1c23;
+    font-size: 30px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.features .row div h3 {
+    color: #08526d;
+}
+
+.features .row div p {
+    color: rgb(0, 0, 0, .7);
+}
+
+/* End Features */
+
+/* =========================================================================================================================== */
+
+/* Start OverView  */
+
+.over {
+    margin: 0 0 60px 0;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0, 0, 0, .1);
+}
+
+/* ======================================= */
+
+.over .row .col h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.over .row .col p {
+    color: rgb(0, 0, 0, .7);
+    line-height: 1.5;
+}
+
+@media (max-width: 576px){
+    .over .row .col h2 {
+        font-weight: bold;
+        font-size: 28px;
+    }
+    
+    .over .row .col p {
+        color: rgb(0, 0, 0, .7);
+        line-height: 1.3;
+    }
+}
+
+/* ======================================== */
+
+.over .row .col span {
+    color: rgb(0, 0, 0, .7);
+    letter-spacing: 1.7px;
+}
+
+.over .row .col button {
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #ec1c23 !important;
+}
+@media (max-width: 576px){
+    .over .row .col button {
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+/* End OverView  */
+
+/* =========================================================================================================================== */
+
+/* Start Featured Work */
+
+.work {
+    margin: 0 0 60px 0;
+}
+
+.work h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.work ul li {
+    border: 2px solid #08526d;
+    color: #08526d;
+    font-weight: bold;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    letter-spacing: 1.5px;
+}
+
+.work ul li:hover {
+    color: white;
+    background-color: #ec1c23;
+    border: 2px solid #ec1c23;
+    cursor: pointer;
+}
+
+.work ul .active {
+    color: white;
+    background-color: #ec1c23;
+    border: 2px solid #ec1c23;
+}
+
+.work .row-img div {
+    padding: 0;
+}
+
+.work .row-img-2 div {
+    padding: 0;
+}
+
+.work .row img {
+    height: 250px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* End Featured Work */
+
+/* =========================================================================================================================== */
+
+/* Start Latest Posts */
+
+.latest {
+    margin-bottom: 60px;
+}
+
+.latest .card {
+    border: 1px solid #08526d;
+    border-top: transparent;
+}
+
+.latest .card img {
+    height: 217px;
+}
+
+.latest h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.latest .card a {
+    color: #ec1c23;
+    font-weight: bold;
+}
+
+.latest .card h3 {
+    color: #08526d;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+/* Start Latest Posts */
+
+/* ========================================================================================================================== */
+
+/* Start Testimonials */
+
+.test .carousel {
+    width: 100%;
+    height: 500px !important;
+}
+
+.test .carousel-inner {
+    width: 100%;
+    height: 100% !important;
+    position: relative;
+}
+
+.test .carousel-item {
+    width: 100%;
+    height: 100% !important;
+}
+
+/* =================================================== */
+
+.test .carousel-item .carousel-caption {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 992px){
+    .test .carousel-item .carousel-caption {
+        margin-bottom: 65px;
+    }
+}
+
+@media (max-width: 768px){
+    .test .carousel-item .carousel-caption {
+        margin-bottom: 55px;
+    }
+}
+
+/* ================================================= */
+
+.test .carousel-item .carousel-caption img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.test .carousel-item .carousel-caption h3 {
+    margin: 7px 0 4px 0;
+}
+
+.test .carousel-item .carousel-caption h5 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+/* ==================================================== */
+
+.test .carousel-item .carousel-caption p {
+    color: rgb(255, 255, 255, .75);
+    font-size: 17px;
+    margin: auto;
+    width: 50%;
+}
+
+@media (max-width: 992px){
+    .test .carousel-item .carousel-caption p {
+        width: 65%;
+    }
+}
+
+@media (max-width: 768px){
+    .test .carousel-item .carousel-caption p {
+        width: 95%;
+    }
+}
+
+/* ==================================================== */
+
+.test .over-lay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, .6);
+    z-index: 2;
+}
+
+.test a {
+    z-index: 3;
+}
+
+.test ol li {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+/* End Testimonials */
+
+/* =========================================================================================================================== */
+
+/* Start Pricing Table */
+
+.pricing {
+    padding: 55px 0;
+    background-color: #f7f4f4;
+}
+
+.pricing h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pricing p {
+    margin-bottom: 50px;
+}
+
+.pricing .card {
+    text-align: center;
+    box-shadow: 0 0 10px 4px rgb(7, 7, 7, .3);
+}
+
+.pricing .card .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pricing .card .card-title {
+    font-size: 25px;
+    color: #08526d;
+}
+
+.pricing .card .card-text {
+    margin: 30px 0 10px 0;
+    padding: 10px;
+    background-color: #f7f4f4;
+    font-size: 32px;
+    color: #08526d;
+    font-weight: bold;
+}
+
+.pricing .card .card-text span {
+    font-size: 16px;
+}
+
+.pricing .card .auto {
+    color: white;
+    background-color: #ec1c23;
+}
+
+.pricing .card button {
+    background-color: #08526d;
+    color: white;
+}
+
+/* ======================================= */
+
+.pricing .coporate {
+    position: relative;
+    top: -15px;
+}
+
+@media (max-width: 992px){
+    .pricing .coporate {
+        position: relative;
+        top: 0;
+    }
+}
+
+/* ====================================== */
+
+/* End Pricing Table */
+
+/* =========================================================================================================================== */
+
+/* Start Choose Us */
+
+.choose {
+    margin-bottom: 60px;
+    width: 100%;
+    color: white;
+}
+
+.choose img {
+    width: 100%;
+    height: 500px;
+}
+
+.choose .col-lg-6:last-of-type {
+    background-color: #08526d;
+}
+
+.choose .col-lg-6 .box {
+    padding: 45px;
+}
+
+.choose .col-lg-6 .box p {
+    color: rgb(255, 255, 255, .65);
+    margin-top: 20px;
+    width: 95%;
+}
+
+.choose .col-lg-6 .box button {
+    background-color: #ec1c23;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* End Choose Us */
+
+/* =========================================================================================================================== */
+
+/* Start Stats */
+
+.stats {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.stats .row i {
+    font-size: 45px;
+    color: #08526d;
+}
+
+.stats .row span {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    color: #08526d;
+}
+
+.stats .row p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top: -8px;
+    color: #ec1c23;
+}
+
+/* End Stats */
+
+/* =========================================================================================================================== */
+
+/* Start Contact */
+
+.contact {
+    background-color: #ec1c23;
+    padding: 50px 0;
+    margin-bottom: 70px;
+}
+
+.modal .modal-title {
+    color: #ec1c23;
+}
+
+.modal .modal-header {
+    border-bottom: 1.5px solid #08526d;
+}
+
+.modal .modal-body input {
+    width: 80%;
+    border: transparent;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 8px 0;
+    outline: none;
+    color: #08526d;
+    font-weight: 700;
+}
+
+.modal .modal-body .border-one {
+    position: absolute;
+    left: 36px;
+    bottom: 159.5px;
+    width: 0;
+    height: 3px;
+    background-color: #ec1c23;
+    transition: .5s;
+}
+
+.modal .modal-body .one:focus + .border-one {
+    width: 75%;
+}
+
+.modal .modal-body .border-two {
+    position: absolute;
+    left: 36px;
+    bottom: 98.5px;
+    width: 0;
+    height: 3px;
+    background-color: #ec1c23;
+    transition: .5s;
+}
+
+.modal .modal-body .two:focus + .border-two {
+    width: 75%;
+}
+
+.modal .modal-body .border-three {
+    position: absolute;
+    left: 36px;
+    bottom: 36.5px;
+    width: 0;
+    height: 3px;
+    background-color: #ec1c23;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: .5s;
+}
+
+.modal .modal-body .three:focus + .border-three {
+    width: 75%;
+}
+
+.modal .modal-footer {
+    border-top: 1.5px solid #08526d;
+}
+
+.modal .modal-footer .message {
+    color: #ec1c23;
+    border: 1px solid #ec1c23;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.modal .modal-footer .message:hover {
+    color: white;
+    background-color: #ec1c23;    
+}
+
+
+
+.contact .row p {
+    color: white;
+    font-size: 19px;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 576px){
+    .contact .row p {
+        font-size: 15px;
+    }
+
+    .contact .row button {
+        font-size: 13px;
+    }
+}
+
+/* End Contact */
+
+/* =========================================================================================================================== */
+
+/* Start Footer */
+
+/* ================================== */
+
+.footer {
+    padding-bottom: 60px;
+}
+
+@media (max-width: 992px){
+    .footer {
+        padding-bottom: 20px;
+    }
+}
+
+/* =================================== */
+
+.footer .info h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #08526d;
+}
+
+.footer .info h2 span {
+    font-weight: 300;
+    color: #ec1c23;
+}
+
+.footer .info a {
+    color: #08526d;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer .info i {
+    color: #08526d;
+}
+
+/* ================================= */
+
+.footer .helpful h4 {
+    color: #08526d;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 992px){
+    .footer .helpful h4 {
+        margin-bottom: 15px;
+    }
+}
+
+/* ================================= */
+
+.footer .helpful .links ul li {
+    line-height: 1.8;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+}
+
+.footer .helpful .links ul li:before {
+    font-family: 'Font Awesome 5 free';
+    content: "\f054";
+    margin-right: 5px;
+    color: #08526d;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+}
+
+.footer .contact-us h4 {
+    margin-bottom: 22px;
+    color: #08526d;
+    font-weight: 500;
+}
+
+/* ======================================== */
+
+.footer .contact-us ul li {
+    line-height: 3.2;
+    font-weight: 500;
+    color: rgb(80, 80, 80);
+}
+
+@media (max-width: 992px){
+    .footer .contact-us h4 {
+        margin-bottom: 5px;
+    }
+
+    .footer .contact-us ul li {
+        line-height: 3;
+    }
+}
+
+/* ======================================== */
+
+.footer .contact-us ul li a {
+    color: #08526d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* End Footer */
+
+/* =========================================================================================================================== */
+
+/* Start CopyRight */
+
+.copy {
+    border-top: 1.5px solid rgb(206, 206, 206);
+}
+
+.copy .row div:first-child {
+    color: #7c7c7c;
+    font-weight: 500;
+}
+
+.copy .row div:last-child i {
+    margin-right: 15px;
+    font-size: 19px;
+    color: #4d4d4d;
+    cursor: pointer;
+}
+
+@media (max-width: 576px){
+    .copy .row div:first-child {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .copy .row div:last-child i {
+        font-size: 15px;
+    }
+}
+
+.copy .row div:last-child i:last-child {
+    margin-right: 0;
+}
+
+/* End CopyRight */
+
+/* =========================================================================================================================== */
+
+/* Start Cevron Top */
+
+.fa-arrow-circle-up {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    color: #ec1c23;
+    font-size: 45px;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.fa-arrow-circle-up:hover {
+    color: white;
+    background-color: #08526d;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 2px #ec1c23;
+}
+
+/* End Cevron Top */
+
+/* ========================================================================================================================== */
